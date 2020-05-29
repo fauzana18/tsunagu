@@ -1,0 +1,73 @@
+body {
+	font-family:verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#header{
+	padding: 10px;
+	height: 100px;
+	border: #0000ff dashed 1px;
+	background-color: lightgreen;
+}
+
+#header h1{
+	color: #003399;
+	font-family: 'trebuchet ms', helvetica, arial, sans-serif;
+}
+
+#header h2{
+	float:right;
+	padding-right:5px;
+}
+
+#bar{
+	margin-top:10px;
+	padding: 0;
+	height: 30px;
+	border: #0000ff dashed 1px;
+	background-color: lightgreen;
+}
+
+ul#navmenu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul#navmenu a{
+	display: inline-block;
+	width: 100px;
+	padding-top:10px;
+	height: 20px;
+	background-color: #003366;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+#page {
+	margin-top: 10px;
+	padding: 10px;
+}
+
+#clear {
+	clear: both;
+}
+
+#footer {
+	border: #0000ff dashed 1px;
+	margin-top: 10px;
+	text-align: center;
+	background-color: lightgreen;
+}
+
+#login{
+	padding-top:25px;
+	width:170px;
+	height:200px;
+}
+
+#login h3{
+	padding:10px;
+}
